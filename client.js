@@ -17,7 +17,7 @@ const connect = function() {
 
   conn.on('connect', () => {
     console.log('Connection established');
-    conn.write('Name: AAA');
+    conn.write('Name: ---');
   });
 
   return conn;
